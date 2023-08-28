@@ -80,7 +80,7 @@ console.log(numeroPar)
 Faça uma função que recebe uma mensagem (string)
 como parâmetro e imprima o tamanho dessa mensagem, 
 juntamente com uma versão dela em letras maiúsculas.
-*/
+
 //d
 let mesagemUsuario = prompt("Insira uma mesagem:")
 function mesagem(texto) {
@@ -89,3 +89,33 @@ function mesagem(texto) {
 	console.log(texto.length)
 }
 mesagem(mesagemUsuario)
+*/
+//3
+
+
+function funcaoSoma(a, b) {
+const soma = Number(a) + Number(b)
+}
+function funcaoSubstracao(a, b) {
+	const substracao = a - b
+}
+function funcaoMultiplicacao(a,b) {
+	const multiplicacao = a * b
+}
+function funcaoDivisao(a, b) {
+	const divisao = a / b
+}
+
+let numeroA = prompt("Digite um numero: ")
+let numeroB = prompt("Digite outro numero:")
+
+const soma = funcaoSoma(numeroA, numeroB)
+const substracao = funcaoSubstracao(numeroA, numeroB)
+const multiplicacao = funcaoMultiplicacao(numeroA, numeroB)
+const divisao = funcaoDivisao(numeroA, numeroB)
+
+console.log(`Numeros inceridos: ${numeroA} e ${numeroB} `)
+console.log(`Soma: ${soma}`)
+console.log(`Diferenca: ${substracao}`)
+console.log(`Multipl1cacao: ${multiplicacao}`)
+console.log(`Divisao: ${divisao}`)
