@@ -95,15 +95,19 @@ mesagem(mesagemUsuario)
 
 function funcaoSoma(a, b) {
 const soma = Number(a) + Number(b)
+return soma
 }
 function funcaoSubstracao(a, b) {
 	const substracao = a - b
+	return substracao
 }
 function funcaoMultiplicacao(a,b) {
 	const multiplicacao = a * b
+	return multiplicacao
 }
 function funcaoDivisao(a, b) {
 	const divisao = a / b
+	return divisao
 }
 
 let numeroA = prompt("Digite um numero: ")
